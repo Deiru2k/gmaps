@@ -3,7 +3,10 @@ import { getDistance } from './distance';
 
 export class GmapsClient {
   constructor(API_KEY) {
-    this.client = gmaps.createClient({ key: API_KEY });
+    this.client = gmaps.createClient({ 
+      key: API_KEY,
+      Promise: Promise,
+    });
   }
 
   getDistance(origins, destinations) {
