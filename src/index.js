@@ -6,7 +6,7 @@ export class GmapsClient {
     this.client = gmaps.createClient({ key: API_KEY });
   }
 
-  getDistance(origins, destination) {
-    return getDistance(this.client, origins, destination);
+  getDistance(origins, destinations) {
+    return getDistance(this.client, origins, destinations);
   }
 }
