@@ -1,0 +1,19 @@
+{
+  "name": "gmaps",
+  "version": "1.0.0",
+  "description": "Borsch gmaps handlers",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "types": "./src/main.d.ts",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "preinstall": "npm run build",
+  },
+  "dependencies": {
+    "@google/maps": "^0.4.6",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "lodash": "^4.17.10"
+  }
+}
