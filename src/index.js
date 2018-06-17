@@ -12,3 +12,5 @@ class GmapsClient {
     return getDistance(this.client, origin, destination);
   }
 }
+
+export default GmapsClient;
