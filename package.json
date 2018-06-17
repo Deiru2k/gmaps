@@ -4,7 +4,7 @@
   "description": "Borsch gmaps handlers",
   "main": "./dist/index.js",
   "license": "MIT",
-  "typings": "./src/main.d.ts",
+  "typings": "./index.d.ts",
   "scripts": {
     "build": "babel src --out-dir dist",
     "preinstall": "npm run build"
