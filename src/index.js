@@ -3,8 +3,6 @@ import { getDistance } from './distance';
 
 class GmapsClient {
   constructor(API_KEY) {
-    super();
-
     this.client = gmaps.createClient({ key: API_KEY });
   }
 
