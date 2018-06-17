@@ -1,3 +1,8 @@
+export interface DistanceResponse {
+  distance: number;
+  duration: number;
+}
+
 export default class GmapsClient {
   constructor(API_KEY: string);
 
