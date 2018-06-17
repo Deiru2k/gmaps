@@ -1,7 +1,7 @@
 import gmaps from '@google/maps';
 import { getDistance } from './distance';
 
-class GmapsClient {
+export class GmapsClient {
   constructor(API_KEY) {
     this.client = gmaps.createClient({ key: API_KEY });
   }
@@ -10,5 +10,3 @@ class GmapsClient {
     return getDistance(this.client, origins, destination);
   }
 }
-
-export default GmapsClient;
