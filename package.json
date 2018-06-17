@@ -2,7 +2,7 @@
   "name": "gmaps",
   "version": "1.0.0",
   "description": "Borsch gmaps handlers",
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
   "license": "MIT",
   "typings": "./src/main.d.ts",
   "scripts": {
